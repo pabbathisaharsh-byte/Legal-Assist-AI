@@ -1,0 +1,27 @@
+# docker-compose.yml
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: legalassist-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+  app:
+    build: .
+    container_name: legalassist-app
+    ports:
+      - "8501:8501"
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+    depends_on:
+      - ollama
+    volumes:
+      - ./data:/app/data   # persist chroma_store and your data files
+    restart: unless-stopped
+
+volumes:
+  ollama_data:

@@ -1,0 +1,40 @@
+{
+  "policies": [
+    {
+      "id": "POL-01",
+      "category": "Termination",
+      "rule": "Contract must specify a clear termination clause with notice period.",
+      "required_keywords": ["termination", "notice period"]
+    },
+    {
+      "id": "POL-02",
+      "category": "Confidentiality",
+      "rule": "Contract must include a confidentiality or non-disclosure clause.",
+      "required_keywords": ["confidential", "non-disclosure", "NDA"]
+    },
+    {
+      "id": "POL-03",
+      "category": "Liability",
+      "rule": "Contract must define limitation of liability.",
+      "required_keywords": ["limitation of liability", "liable", "liability"]
+    },
+    {
+      "id": "POL-04",
+      "category": "Payment Terms",
+      "rule": "Contract must specify payment terms and due dates.",
+      "required_keywords": ["payment", "due date", "invoice"]
+    },
+    {
+      "id": "POL-05",
+      "category": "Dispute Resolution",
+      "rule": "Contract must include a dispute resolution or governing law clause.",
+      "required_keywords": ["governing law", "dispute resolution", "arbitration", "jurisdiction"]
+    },
+    {
+      "id": "POL-06",
+      "category": "Indemnification",
+      "rule": "Contract must include an indemnification clause protecting both parties.",
+      "required_keywords": ["indemnify", "indemnification", "indemnity"]
+    }
+  ]
+}
