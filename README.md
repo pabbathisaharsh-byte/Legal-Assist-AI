@@ -239,12 +239,11 @@ matplotlib
 
 ---
 ## Example Workflow
-<img width="1920" height="876" alt="image" src="https://github.com/user-attachments/assets/01684bcb-1492-411d-a0da-db6a487b403a" />
+<img width="1885" height="851" alt="Screenshot 2026-08-06 144328" src="https://github.com/user-attachments/assets/81b633e7-fa20-4c04-9532-8836d5dad37b" />
 
-<img width="1920" height="876" alt="image" src="https://github.com/user-attachments/assets/563f56b6-099d-41a3-b974-45520946519a" />
+<img width="1920" height="866" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/e9554db4-5b5b-422d-839c-61d6cd13224a" />
 
-<img width="1920" height="866" alt="image" src="https://github.com/user-attachments/assets/4ca8d138-142c-49e9-8b88-7a21b8a945f1" />
-
+<img width="1920" height="876" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/26afc690-4d91-40e9-9dce-80b85b7a828a" />
 
 ## 🎯 Future Enhancements
 
