@@ -238,6 +238,13 @@ matplotlib
 ```
 
 ---
+## Example Workflow
+<img width="1920" height="876" alt="image" src="https://github.com/user-attachments/assets/01684bcb-1492-411d-a0da-db6a487b403a" />
+
+<img width="1920" height="876" alt="image" src="https://github.com/user-attachments/assets/563f56b6-099d-41a3-b974-45520946519a" />
+
+<img width="1920" height="866" alt="image" src="https://github.com/user-attachments/assets/4ca8d138-142c-49e9-8b88-7a21b8a945f1" />
+
 
 ## 🎯 Future Enhancements
 
