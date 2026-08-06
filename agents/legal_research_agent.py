@@ -4,6 +4,7 @@ from pydantic import BaseModel, Field
 from typing import List
 from memory.state import LegalAssistState
 from tools.legal_knowledge_base import search_legal_knowledge
+from utils.config import OLLAMA_HOST  
 
 import os
 OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")

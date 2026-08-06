@@ -4,13 +4,13 @@ from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
 from memory.state import LegalAssistState
-
+from utils.config import OLLAMA_HOST  
 class ReflectionResult(BaseModel):
     is_approved: bool
     notes: str = Field(description="What was checked, and any gaps or issues found")
     final_response: str = Field(description="The polished final response to show the user")
 
-llm = ChatOllama(model="llama3.2", temperature=0)
+llm = ChatOllama(model="llama3.2", temperature=0, base_url=OLLAMA_HOST)
 structured_llm = llm.with_structured_output(ReflectionResult)
 
 REFLECTION_PROMPT = ChatPromptTemplate.from_messages([

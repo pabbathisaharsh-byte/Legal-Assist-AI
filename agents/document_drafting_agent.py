@@ -2,7 +2,7 @@ from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
 from memory.state import LegalAssistState
-
+from utils.config import OLLAMA_HOST  
 import os
 OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
 llm = ChatOllama(model="llama3.2", temperature=0, base_url=OLLAMA_HOST)
